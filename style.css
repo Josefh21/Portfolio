@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Maven Pro', monospace;
+}
+
+header{
+    background-image: url("carro.webp");
+    background-position: center;
+    padding: 280px;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;   
+}
+
+.jo{
+    position: absolute;
+    top: 8px;
+    left: 40px;
+}
+
+.in{
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+
+hr{
+    border: 3px solid #8b0000;
+    border-radius: 5px;
+    border-left: 50px;
+}
