@@ -1,7 +1,7 @@
 body{
     background-color:black;
     color: white;
-    font-family: 'Maven Pro', monospace;
+    font-family: 'Sans-serif', 'verdana', monospace;
 }
 
 header{
@@ -37,4 +37,31 @@ hr{
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
+    font-size: 25px;
+}
+
+.ma {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+button{
+    position: center;
+    background-color: #8b0000;
+    color: white;
+    font-family: 'Sans-serif', 'verdana', monospace;
+    border: none;
+    border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
 }
