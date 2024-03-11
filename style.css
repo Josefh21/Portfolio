@@ -5,9 +5,12 @@ body{
 }
 
 header{
-    background-image: url("carro.webp");
+    background-image: url("ferrari.jpg");
     background-position: center;
-    padding: 280px;
+    padding: 390px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 0px;
     right: 0px;
     font-size: 18px;   
@@ -26,6 +29,11 @@ header{
 }
 
 hr{
+    border: 3px solid #8b0000;
+    border-radius: 5px;
+}
+
+.reduz{
     border: 3px solid #8b0000;
     border-radius: 5px;
     margin-left: 200px;
@@ -47,10 +55,11 @@ hr{
     font-size: 40px;
 }
 
-button{
+.materias{
     position: center;
     background-color: #8b0000;
     color: white;
+    text-decoration: none;
     font-family: 'Sans-serif', 'verdana', monospace;
     border: none;
     border-radius: 5px;
@@ -59,9 +68,31 @@ button{
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 20px;
+    cursor: pointer;
 }
 
 #buttons{
+
     display: flex;
     justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.inicio{
+    position: center;
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sans-serif', 'verdana', monospace;
+    border: none;
+    border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    cursor: pointer;
 }
